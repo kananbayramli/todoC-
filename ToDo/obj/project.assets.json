@@ -3515,9 +3515,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\ToDoApp\\ToDo\\ToDo.csproj",
-      "projectName": "ToDo",
-      "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\ToDoApp\\ToDo\\ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\SAMSUNG\\Desktop\\ToDoApp\\ToDo\\ToDoDemo.csproj",
+      "projectName": "ToDoDemo",
+      "projectPath": "C:\\Users\\SAMSUNG\\Desktop\\ToDoApp\\ToDo\\ToDoDemo.csproj",
       "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SAMSUNG\\Desktop\\ToDoApp\\ToDo\\obj\\",
       "projectStyle": "PackageReference",

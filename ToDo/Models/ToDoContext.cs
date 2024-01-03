@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ToDo.Models
+namespace ToDoDemo.Models
 {
     public class ToDoContext : DbContext
     {
+        public ToDoContext(DbContextOptions<ToDoContext> options) : base(options) { }
+
         public DbSet<ToDo> ToDos { get; set; } = null!;
         public DbSet<Category> Categories { get; set; } = null!;
         public DbSet<Status> Statuses { get; set; } = null!;
-        public ToDoContext(DbContextOptions<ToDoContext> options) : base(options) { }
 
         //seed data
 
