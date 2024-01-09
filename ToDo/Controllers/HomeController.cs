@@ -52,7 +52,7 @@ namespace ToDoDemo.Controllers
 
             var tasks = query.OrderBy(t => t.DueDate).ToList();
 
-            return View();
+            return View(tasks);
         }
 
         [HttpGet]
@@ -102,7 +102,7 @@ namespace ToDoDemo.Controllers
         
         }
 
-        [HttpDelete]
+        [HttpPost]
         public IActionResult DeleteComplete(string id) 
         {
             var toDelete = context.ToDos.Where(t => t.StatusId == "closed").ToList();
